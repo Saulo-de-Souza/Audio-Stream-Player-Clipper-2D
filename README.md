@@ -38,9 +38,7 @@ $AudioStreamPlayerClipper2D.stop()
 
 ## ![Screen Shoot](addons/audio_stream_player_clipper_2d//screen_shoot_1.png)
 
-<p align="center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/FKWJQyHY0pY" frameborder="0" allowfullscreen></iframe>
-</p>
+[Watch the video here](https://www.youtube.com/watch?v=FKWJQyHY0pY)
 
 ## Installation
 
