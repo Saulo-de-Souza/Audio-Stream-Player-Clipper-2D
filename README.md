@@ -38,6 +38,10 @@ $AudioStreamPlayerClipper2D.stop()
 
 ## ![Screen Shoot](addons/audio_stream_player_clipper_2d//screen_shoot_1.png)
 
+<p align="center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/FKWJQyHY0pY?si=u1v_Y7hCevYRs6D4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p>
+
 ## Installation
 
 1. Download the plugin and place the `AudioStreamPlayerClipper2D` folder inside the `addons` folder of your Godot project.
