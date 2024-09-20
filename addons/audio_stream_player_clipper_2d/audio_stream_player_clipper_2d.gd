@@ -1,4 +1,5 @@
 @tool
+
 extends Node2D
 
 @export_group("AudioStreamPlayerClipper2D")
@@ -292,6 +293,9 @@ func loop_change() -> void:
 	if Engine.is_editor_hint():
 		return
 
+	if audio_stream_player_2d.stream:
+		audio_stream_player_2d.stream.loop = loop
+
 	if can_change and auto_play:
 		timer_with_cut.stop()
 		timer_with_out_cut.stop()
@@ -341,7 +345,6 @@ func panning_strength_change() -> void:
 
 
 # ************************************************************************************************
-
 #
 # EDITOR
 #
