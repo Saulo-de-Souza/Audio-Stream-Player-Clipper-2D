@@ -36,7 +36,7 @@ $AudioStreamPlayerClipper2D.play()
 $AudioStreamPlayerClipper2D.stop()
 ```
 
-## ![Screen Shoot](screen_shoot_1.png)
+## ![Screen Shoot](addons/audio_stream_player_clipper_2d//screen_shoot_1.png)
 
 ## Installation
 
