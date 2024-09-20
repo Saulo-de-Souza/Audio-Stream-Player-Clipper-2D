@@ -300,7 +300,7 @@ func loop_change() -> void:
 	if Engine.is_editor_hint():
 		return
 
-	if audio_stream_player_2d.stream:
+	if audio_stream_player_2d and audio_stream_player_2d.stream:
 		audio_stream_player_2d.stream.loop = loop
 
 	if can_change and auto_play:
