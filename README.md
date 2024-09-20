@@ -21,7 +21,22 @@ Additionally, streamline your workflow with the ability to test audio directly i
 - **Panning Strength**
 - **Editor Play Test**
 
----
+```php
+$AudioStreamPlayerClipper2D.loop = false
+$AudioStreamPlayerClipper2D.auto_play = false
+$AudioStreamPlayerClipper2D.start_time = 0.0
+$AudioStreamPlayerClipper2D.end_time = 0.0
+$AudioStreamPlayerClipper2D.apply_cut = false
+$AudioStreamPlayerClipper2D.volume_db = 0.0
+$AudioStreamPlayerClipper2D.pitch_scale = 1
+$AudioStreamPlayerClipper2D.max_distance = 2000.0
+$AudioStreamPlayerClipper2D.attenuation = 1.0
+$AudioStreamPlayerClipper2D.panning_strength = 1.0
+$AudioStreamPlayerClipper2D.play()
+$AudioStreamPlayerClipper2D.stop()
+```
+
+## ![Screen Shoot](screen_shoot_1.png)
 
 ## Installation
 

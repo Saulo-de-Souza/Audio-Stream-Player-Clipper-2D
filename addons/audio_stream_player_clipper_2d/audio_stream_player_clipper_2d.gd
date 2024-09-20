@@ -223,7 +223,7 @@ func _on_timer_with_out_cut_timeout() -> void:
 
 	play_audio_with_out_cut()
 
-func start() -> void:
+func play() -> void:
 	if Engine.is_editor_hint():
 		return
 
@@ -234,7 +234,14 @@ func stop() -> void:
 	if Engine.is_editor_hint():
 		return
 
-	audio_stream_player_2d.stop()
+	if audio_stream_player_2d:
+		audio_stream_player_2d.stop()
+
+	if timer_with_cut:
+		timer_with_cut.stop()
+
+	if timer_with_out_cut:
+		timer_with_out_cut.stop()
 	pass
 
 func start_time_change() -> void:
